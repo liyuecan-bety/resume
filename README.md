@@ -46,7 +46,7 @@
 
 **涉及技术**：STM32F407ZGT6 · FreeRTOS · HAL · ADC · USART · FSMC(LCD) · EXTI · DWT · One-Wire · Python · 嵌入式 Linux
 
-📌 [项目链接https://github.com/liyuecan-bety/STM32_RemoteMonitoringSystem]。
+📌 [项目链接[https://github.com/liyuecan-bety/STM32_RemoteMonitoringSystem](https://github.com/liyuecan-bety/STM32_RemoteMonitoringSystem.git)]。
 
 ---
 
