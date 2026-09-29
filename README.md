@@ -46,7 +46,7 @@
 
 **涉及技术**：STM32F407ZGT6 · FreeRTOS · HAL · ADC · USART · FSMC(LCD) · EXTI · DWT · One-Wire · Python · 嵌入式 Linux
 
-📌 详见仓库代码与 `docs/` 目录下的详细设计文档（FreeRTOS 逐行讲解、串口 Wi-Fi 转发方案等）。
+📌 [项目链接https://github.com/liyuecan-bety/STM32_RemoteMonitoringSystem]。
 
 ---
 
