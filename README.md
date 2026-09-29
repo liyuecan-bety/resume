@@ -59,7 +59,8 @@
 - **板级调试**：设计 256 周期上电延迟保证电源稳定，结合 I2S 收发与 PLL 时钟 IP 核，48kHz 采样率建立稳定音频通路，**回环延迟 < 0.3ms**，连续运行 1 小时无丢帧。
 
 **涉及技术**：Verilog · I2C / I2S · ES8388 · FPGA
-📌 [项目链接[https://github.com/liyuecan-bety/EG4S20BG256.git]
+
+📌 [项目链接[https://github.com/liyuecan-bety/EG4S20BG256]
 ## 📫 联系方式
 
 - 📧 邮箱：`liyuecan960@gmail.com`
