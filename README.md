@@ -58,7 +58,7 @@
 
 **涉及技术**：Verilog · I2C / I2S · ES8388 · FPGA
 
-📌 [项目链接](https://github.com/liyuecan-bety/EG4S20BG256）
+📌 [项目链接](https://github.com/liyuecan-bety/EG4S20BG256)
 ## 📫 联系方式
 
 - 📧 邮箱：`liyuecan960@gmail.com`
