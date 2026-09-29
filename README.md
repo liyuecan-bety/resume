@@ -4,8 +4,6 @@
 
 一名热爱底层的嵌入式开发者，专注于 **STM32 裸机 / FreeRTOS** 与 **嵌入式 Linux** 方向，喜欢把「原理搞清楚、代码写干净」。课余时间做了一个从 MCU 采集到云端查看的**端到端远程环境监测系统**，把 RTOS 多任务、中断驱动、串口协议和 Linux 网关串了起来
 
-- 📧 `liyuecan960@gmail.com` · 📱 `166 0726 6961`
-
 ---
 
 ## 🛠 技术栈
@@ -46,7 +44,7 @@
 
 **涉及技术**：STM32F407ZGT6 · FreeRTOS · HAL · ADC · USART · FSMC(LCD) · EXTI · DWT · One-Wire · Python · 嵌入式 Linux
 
-📌 [项目链接[https://github.com/liyuecan-bety/STM32_RemoteMonitoringSystem](https://github.com/liyuecan-bety/STM32_RemoteMonitoringSystem.git)]。
+📌 [项目链接](https://github.com/liyuecan-bety/STM32_RemoteMonitoringSystem)。
 
 ---
 
@@ -56,11 +54,11 @@
 
 - **I2C 驱动与寄存器配置**：用 Verilog 编写 I2C 控制器时序逻辑，通过状态机连续写入 ES8388 的 **24 个内部寄存器**（采样率、电源、增益、ADC/DAC 通路等），实现上电完整初始化。
 - **参数化硬件设计**：宏定义实现 **16/20/24/32bit** 四种音频字长切换，4 档音量映射逻辑，无需改代码即可适配不同场景。
-- **板级调试**：设计 256 周期上电延迟保证电源稳定，结合 I2S 收发与 PLL 时钟 IP 核，48kHz 采样率建立稳定音频通路，**回环延迟 < 0.3ms**，连续运行 1 小时无丢帧。
+- **板级调试**：设计 256 周期上电延迟保证电源稳定，结合 I2S 收发与 PLL 时钟 IP 核，48kHz 采样率建立稳定音频通路，**低回环延迟、长时间稳定运行**。
 
 **涉及技术**：Verilog · I2C / I2S · ES8388 · FPGA
 
-📌 [项目链接[https://github.com/liyuecan-bety/EG4S20BG256]
+📌 [项目链接](https://github.com/liyuecan-bety/EG4S20BG256]
 ## 📫 联系方式
 
 - 📧 邮箱：`liyuecan960@gmail.com`
